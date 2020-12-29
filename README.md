@@ -11,15 +11,15 @@ Open the SSANOVA_Plots.R file, change the setwd() command to include the directo
 
 The fits and the M data frame are saved in the R object, and were originally obtained using the following code segment:
 
-mat<-data$Brain.Tissue..cm.3. #can switch out with other variables
-id<-factor(data$X.Subject) # Subject ID's for random effects
-class<-factor(data$Gender) # Gender as fixed effects classes for comparison
-time<-data$Age..days. # Time as main fixed effect
-D<-data.frame(mat,class,time,id) # Put these into a dataframe
-fitz<-ssanova(mat~class+time+class:time,random=~1|id,data=D) 
-time<-c(0:6570,0:6570) # new time variables for predictions
-class<-factor(c(rep(1,times=6571),rep(2,times=6571))) # new class variables for predictions
-M<-data.frame(class,time) # Put these into a dataframe
+mat<-data$Brain.Tissue..cm.3. #can switch out with other variables\ 
+id<-factor(data$X.Subject) # Subject ID's for random effects\
+class<-factor(data$Gender) # Gender as fixed effects classes for comparison\
+time<-data$Age..days. # Time as main fixed effect\
+D<-data.frame(mat,class,time,id) # Put these into a dataframe\
+fitz<-ssanova(mat~class+time+class:time,random=~1|id,data=D)\
+time<-c(0:6570,0:6570) # new time variables for predictions\
+class<-factor(c(rep(1,times=6571),rep(2,times=6571))) # new class variables for predictions\
+M<-data.frame(class,time) # Put these into a dataframe\
 
 # Generalized Additive Models for Location, Scale, and Shape Plots
 
