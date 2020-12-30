@@ -1,14 +1,13 @@
 ###### Code to plot normal brain GAMLSS growth curve figures #####
 
-#rm(list=ls()) #uncomment for clearing environment
-#dev.off() #uncomment for clearing plots
 
-###### install.packages("gamlss") #library install (uncomment the first run through) ###### 
+###### library install (uncomment the first run through) ###### 
+#install.packages("gamlss")
 
 library("gamlss") #library load
 
-#set the working directory to that of the Brain_Volume Folder
-setwd("Brain_Volume")
+###### set the working directory to that of the Brain_Volume Folder ######
+#setwd("Brain_Volume")
 
 ###### Load Data #####
 
