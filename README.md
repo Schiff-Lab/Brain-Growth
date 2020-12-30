@@ -2,14 +2,14 @@
 
 This R code facilitates the production of the SSANOVA and GAMLSS Brain Volume growth curves described in the paper “Normal Human Brain Growth” [(medrxiv link)](https://www.medrxiv.org/content/10.1101/2020.05.19.20102319v1.full?versioned=true).
 
-This code was compiled and tested with R version 3.6.1 on Mac OS.
+This code was compiled and tested with R version 3.6.1 on Mac OS. You must have R installed on your computer, and we recommend using RSTUDIO to help with running such code. You can download the entire code package from this GitHub repository by downloading as a single zip file. 
 
-The “gamlss”, “gss”, and “mosaic” libraries will need to be installed.  
+The “gamlss”, “gss”, and “mosaic” libraries will need to be installed in R as  
   * `install.packages("gamlss")`
   * `install.packages("gss")`
   * `install.packages("mosaic")`
 
-For each script, the working directory will need to be set to the Brain_Volume folder.
+If you leave the download in a 'Downloads" directory, then you can set the workking directory as
   * `setwd("Downloads/Brain-Volume-main/Brain_Volume")`
 
 Within the Brain_Volume folder, there are 3 scripts that can be run.
