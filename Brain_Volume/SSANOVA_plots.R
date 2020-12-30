@@ -1,18 +1,16 @@
 ###### Code to plot normal brain SSANOVA figures #####
 
-#rm(list=ls()) #uncomment for clearing environment
-#dev.off() #uncomment for clearing plots
-
-# install.packages("gamlss") #library install (uncomment the first run through) 
-# install.packages("gss") #library install (uncomment the first run through) 
-# install.packages("mosaic") #library install (uncomment the first run through) 
+###### library install (uncomment the first run through) ###### 
+# install.packages("gamlss")
+# install.packages("gss") 
+# install.packages("mosaic") 
 
 library(gss)
 library(ggplot2)
 library(mosaic)
 
 ###### set the working directory to that of the Brain_Volume Folder ###### 
-setwd("Brain_Volume")
+# setwd("Brain_Volume")
 
 ###### Male/Female SSANOVA Plots ###### 
 
