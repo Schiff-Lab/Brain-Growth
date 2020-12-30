@@ -1,9 +1,8 @@
 ###### Code to plot brain volume and determine z-scores using normal brain volume GAMLSS growth curves #####
 
-#rm(list=ls()) #uncomment for clearing environment
-#dev.off() #uncomment for clearing plots
 
-#install.packages("gamlss") #library install (uncomment the first run through)
+###### library install (uncomment the first run through) ######
+#install.packages("gamlss") 
 
 library("gamlss") #library load
 
