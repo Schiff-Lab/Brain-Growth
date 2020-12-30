@@ -6,6 +6,8 @@
 
 library("gamlss") #library load
 
+###### set the working directory to that of the Brain_Volume Folder ###### 
+# setwd("Brain_Volume")
 
 ##### Load Data #####
 
