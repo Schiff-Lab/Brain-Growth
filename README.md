@@ -1,6 +1,6 @@
 # Plotting Normal Brain Volume Growth
 
-This R code facilitates the production of the SSANOVA and GAMLSS Brain Volume growth curves described in the paper “Normal Human Brain Growth” [(medrxiv link)](https://www.medrxiv.org/content/10.1101/2020.05.19.20102319v1.full?versioned=true).
+This R code facilitates the production of the SSANOVA and GAMLSS Brain Volume growth curves described in the paper “Normal childhood brain growth and a universal sex and anthropomorphic relationship to cerebrospinal fluid” [(Journal of Neurosurgery Pediatrics article link)](https://thejns.org/pediatrics/view/journals/j-neurosurg-pediatr/28/4/article-p458.xml).
 
 This code was compiled and tested with R version 3.6.1 on Mac OS. You must have R installed on your computer, and we recommend using RSTUDIO to help with running such code. You can download the entire code package from this GitHub repository by downloading as a single zip file. 
 
